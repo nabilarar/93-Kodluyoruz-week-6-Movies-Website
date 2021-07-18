@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+ </head>
+
+   
+ <body> 
+    <!--start header -->
+   <div class="navbar">
+     <div class="navbar-container">
+       <div class="logo-container">
+         <h1 class="logo">Movies</h1>
+       </div>
+            
+
+       <div class="form-container">
+         <form id="form">
+            <input type="text" name="textName" id="text">
+            <button type="submit"><i class='bx bx-search-alt-2' ></i></button>
+         </form>
+       </div>
+
+       <div class="profile-container">
+         <img class="profile-picture" src="https://images.unsplash.com/photo-1544005313-94ddf0286df2?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80" alt="">
+           <div class="profile-text-container">
+           <span class="profile-text">Profile</span>
+           <i class='bx bxs-down-arrow'></i>
+         </div>
+       </div>
+     </div>
+   </div>
+    <!--end of header-->
+
+
+    
+
+   <!-- start Featured Content -->
+   <div class="featured-container">
+      <div class="featured-content">
+        <p class="featured-desc">Bladerunner 2049</p>
+        <button class="featured-button">watch</button>
+        <button class="featured_button"><i class='bx bx-plus bx-flip-vertical' ></i></button>
+      </div>
+    </div>
+    <!--end of Featured Content-->
+
+
+
+    
+    <!--start parties list-->
+    
+    <div class="Parties-list-cards">
+      <p class="Parties-list-item-title">Parties</p>
+      <div class="Parties-list-item">
+        <img class="Parties-list-item-img" src="https://images.unsplash.com/photo-1580680639239-49c20331b0d4?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80" alt="">
+        <p class="Parties-list-item-desc">Cadaver</p>
+        <p class="Parties-list-item-desc">Horror marathon!</p>  
+      </div>
+ 
+      <div class="Parties-list-item">
+        <img class="Parties-list-item-img" src="https://images.unsplash.com/photo-1620753980635-468d8a5d4b97?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1189&q=80" alt="">
+        <p class="Parties-list-item-desc">Bladerunner 2049</p>
+        <p class="Parties-list-item-desc">Sci fi binge</p> 
+     </div>
+ 
+      <div class="Parties-list-item">
+        <img class="Parties-list-item-img" src="https://images.unsplash.com/photo-1480308180327-3ab2c310808f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1050&q=80" alt="">
+        <p class="Parties-list-item-desc">Monsters</p>
+        <p class="Parties-list-item-desc">Dom't make me grow up</p> 
+      </div>
+        
+      <div class="Parties-list-item">
+        <img class="Parties-list-item-img" src="https://images.unsplash.com/photo-1531482615713-2afd69097998?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1050&q=80" alt="">
+        <p class="Parties-list-item-desc">Friends</p>
+        <p class="Parties-list-item-desc">We were on a break!</p> 
+     </div>
+     <p class="Parties-list-item-title">Research results</p>
+    </div>
+    <!--end of parties list-->
+
+
+
+
+    <!--start data-container-->
+    <div class="data-container" id="dataContainer"></div>
+    <!--end of data-container-->
+
+
+
+    
+   <!--start sidebar-->
+   <div class="sidebar">
+     <div class="logo_content">
+       <div class="logo">
+         <i class='bx bxs-home'></i>
+         <div class="logo_name">Home</div>
+       </div>
+       <i class='bx bx-menu' id="btn" ></i>
+     </div>
+     <ul class="nav_list">
+       <li>
+           <i class='bx bx-search' ></i>
+           <input type="text" placeholder="Search...">
+           <span class="tooltip">Search</span>
+       </li>
+       <li>
+         <a href="#">
+           <i class='bx bx-user' ></i>
+           <span class="links_name">User</span>
+         </a>
+         <span class="tooltip">User</span>
+       </li>
+       <li>
+         <a href="#">
+           <i class='bx bxs-bookmarks' ></i>
+           <span class="links_name">Bookmarks</span>
+         </a>
+         <span class="tooltip">Bookmarks</span>
+       </li>
+       <li>
+         <a href="#">
+           <i class='bx bx-chat' ></i>
+           <span class="links_name">Messages</span>
+         </a>
+         <span class="tooltip">Messages</span>
+       </li>
+       <li>
+         <a href="#">
+           <i class='bx bx-folder' ></i>
+           <span class="links_name">File Manager</span>
+         </a>
+         <span class="tooltip">Files</span>
+       </li>
+       <li>
+         <a href="#">
+           <i class='bx bx-cart-alt' ></i>
+           <span class="links_name">Order</span>
+         </a>
+         <span class="tooltip">Order</span>
+       </li>
+       <li>
+         <a href="#">
+           <i class='bx bx-heart' ></i>
+           <span class="links_name">Saved</span>
+         </a>
+         <span class="tooltip">Saved</span>
+       </li>
+       <li>
+         <a href="#">
+           <i class='bx bx-cog' ></i>
+           <span class="links_name">Setting</span>
+         </a>
+         <span class="tooltip">Setting</span>
+       </li>
+     </ul> 
+   </div>
+   <!--end of sidebar-->
+
+    <script src="script.js"></script>
+ </body>
+</html>
